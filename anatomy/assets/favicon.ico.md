@@ -1,6 +1,6 @@
 # assets/favicon.ico
 
-This file is the [Favicon](http://en.wikipedia.org/wiki/Favicon) for your app.
+[Favicon](https://ru.wikipedia.org/wiki/Favicon) для вашего приложения.
 
 
 <docmeta name="displayName" value="favicon.ico">

@@ -1,6 +1,6 @@
 # assets/js/
 
-This is where you put client-side JavaScript files that you want to be statically hosted by your app.  Sails puts a few in there for making communication via socket.io easier.
+Здесь вы размещаете клиентские JavaScript-файлы, которые вы хотите статически размещать в своем приложении. Sails предлагает несколько способов облегчить коммуникацию через socket.io.
 
 
 <docmeta name="displayName" value="js">

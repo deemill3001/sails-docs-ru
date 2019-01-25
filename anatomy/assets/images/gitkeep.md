@@ -1,7 +1,7 @@
 # assets/images/.gitkeep
 
 
-Ignore this file.  It only exists because `git` refuses to push empty directories to a remote server.  `.gitkeep` is an unofficial convention that has emerged as a workaround for people who don't discriminate against empty directories.
+Игнорируйте этот файл. Он существует только потому, что `git` отказывается отправлять пустые каталоги на удаленный сервер. `.gitkeep` - это неофициальное соглашение, которое появилось в качестве обходного решения для людей, которые не предвзято относятся к пустым каталогам.
 
 
 <docmeta name="displayName" value=".gitkeep">

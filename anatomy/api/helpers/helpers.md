@@ -1,10 +1,10 @@
 # api/helpers/
 
-This is the directory that holds your helpers.  In Sails, helpers are shared functions that can be called from anywhere in your app.
+Это каталог, в котором хранятся ваши помощники. В Sails помощники - это общие функции, которые можно вызывать из любого места в вашем приложении.
 
-When you call `sails generate helper tickle-user` via the command line from inside your project's root directory, Sails will generate the file `api/helpers/tickle-user.js`, with a skeleton helper file to get you started.
+Когда вы вызываете `sails generate helper tickle-user` через командную строку из корневого каталога вашего проекта, Sails сгенерирует файл `api/helpers/tickle-user.js` с готовой структурой помощника, чтобы вы могли начать работу.
 
-See the [main helpers documentation](https://sailsjs.com/documentation/concepts/helpers) for more info.
+См. [основную документацию помощников](https://sailsjs.com/documentation/concepts/helpers) для получения дополнительной информации.
 
 
 <docmeta name="displayName" value="helpers">

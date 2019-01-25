@@ -1,8 +1,8 @@
 # assets/dependencies/
 
-As a rule of thumb, if it's code written by you or someone on your team, it _does not belong in this folder._  Instead, `assets/dependencies/` is for your client-side dependencies such as Vue.js, Bootstrap, or jQuery.  This folder can include client-side JavaScript files, stylesheets, and even images.  (See the "Web App" template for an example.)
+Как правило, если это код, написанный Вами или кем-то из вашей команды, он _не принадлежит этой папке_. Вместо этого используется `assets/dependencies/` для ваших клиентских зависимостей, таких как Vue.js, Bootstrap или jQuery. Эта папка может содержать клиентские файлы JavaScript, CSS стили и даже изображения. (См. шаблон 'Web App'.)
 
-JavaScript files and stylesheets in the `assets/dependencies/` folder are loaded first, before your other assets.  This conventional behavior is orchestrated by [tasks/pipeline.js](https://sailsjs.com/documentation/anatomy/tasks/pipeline.js), so head over there if you need to tweak this behavior (for example, if some of your client-side dependencies need to load before others.)
+Файлы JavaScript и CSS стили в папке 'assets/dependencies/' загружаются в первую очередь, перед вашими другими ресурсами. Это стандартное поведение организовано в [tasks/pipeline.js](https://sailsjs.com/documentation/anatomy/tasks/pipeline.js), так что идите туда, если вам нужно настроить это поведение (например, если некоторые ваших клиентских зависимостей нужно загружать раньше других.)
 
 <docmeta name="displayName" value="dependencies">
 

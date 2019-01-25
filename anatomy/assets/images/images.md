@@ -1,8 +1,8 @@
 # assets/images/
 
-This is where you should put image files that need to be statically hosted by your app.
+Здесь вы должны поместить файлы изображений, которые должны статически размещаться в вашем приложении.
 
-Upon lifting your app, an image called `omgCat.jpg` could be found at `http://localhost:1337/images/omgCat.jpg`
+После поднятия вашего сервера приложения, изображение с именем `omgCat.jpg` может быть найдено по адресу `http://localhost:1337/images/omgCat.jpg`.
 
 
 
