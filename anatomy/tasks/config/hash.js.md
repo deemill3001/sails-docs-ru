@@ -1,18 +1,18 @@
 # tasks/config/hash.js
 
 
-This file configures a Grunt task called "hash".
+Этот файл настраивает задачу Grunt под названием "hash".
 
-This task implements cache-busting for minified CSS and JavaScript files.
+Эта задача реализует очистку кэша для минимизированных файлов CSS и JavaScript.
 
-Specifically, its job is to append a unique hash to the end of a filename.
+В частности, его работа заключается в добавлении уникального хэша в конец имени файла.
 
-> For example: bar/foo.css => bar/dist/foo.f8494f81.css
+> Например: bar/foo.css => bar/dist/foo.f8494f81.css
 
 
-### Usage
+### Использование
 
-For additional usage documentation, see [`grunt-hash`](https://github.com/jgallen23/grunt-hash/tree/0.5.0#grunt-hash).
+Дополнительная документация по использованию `grunt-hash` смотрите [тут](https://github.com/jgallen23/grunt-hash/tree/0.5.0#grunt-hash).
 
 
 <docmeta name="displayName" value="hash.js">

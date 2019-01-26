@@ -1,16 +1,16 @@
 # tasks/config/sync.js
 
 
-This file configures a Grunt task called "sync".
+Этот файл настраивает задачу Grunt под названием "sync".
 
-This task synchronizes one directory with another (like rsync).  In the default Sails asset pipeline, it plays a very similar role to `tasks/config/copy.js`, but copies only those files that have actually changed since the last time the task was run.
+Эта задача синхронизирует один каталог с другим (например, rsync). В конвейере ресурсов Sails, по умолчанию он играет очень похожую роль как и задача `tasks/config/copy.js`, но копирует только те файлы, которые фактически изменились с момента последнего запуска задачи.
 
-Specifically, its job is to synchronize files from the `assets/` folder to `.tmp/public`, smashing anything that's already there.
+В частности, его работа заключается в синхронизации файлов из папки `assets/` в `.tmp/public`, уничтожая все, что там уже есть.
 
 
-### Usage
+### Использование
 
-For additional usage documentation, see [`grunt-sync`](https://www.npmjs.com/package/grunt-sync).
+Дополнительная документация по использованию `grunt-sync` смотрите [тут](https://www.npmjs.com/package/grunt-sync).
 
 
 <docmeta name="displayName" value="sync.js">

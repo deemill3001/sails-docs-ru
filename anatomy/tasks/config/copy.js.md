@@ -1,18 +1,18 @@
 # tasks/config/copy.js
 
-This file configures a Grunt task called "copy".
+Этот файл настраивает задачу Grunt под названием "copy".
 
-Copy files and/or folders from your `assets/` directory into the web root (`.tmp/public`) so they can be served via HTTP, and also for further pre-processing by other Grunt tasks.
+Эта задача копирует файлы и/или папки из вашего каталога `assets/` в корневой веб-каталог (`.tmp/public`), чтобы они могли обслуживаться через HTTP, а также для дальнейшей предварительной обработки другими задачами Grunt.
 
-##### Normal usage (`sails lift`)
-Copies all directories and files (except CoffeeScript and LESS) from the `assets/` folder into the web root -- conventionally a hidden directory located `.tmp/public`.
+##### Обычное использование (`sails lift`)
+Копирует все каталоги и файлы (кроме CoffeeScript и LESS) из папки `assets/` в корневой веб-каталог - обычно это скрытый каталог, расположенный в `.tmp/public`.
 
-##### Via the `build` tasklist (`sails www`)
-Copies all directories and files from the .tmp/public directory into a www directory.
+##### Использование через список задач `build` (`sails www`)
+Копирует все каталоги и файлы из каталога `.tmp/public` в каталог www.
 
-### Usage
+### Использование
 
-For additional usage documentation, see [`grunt-contrib-copy`](https://npmjs.com/package/grunt-contrib-copy).
+Дополнительная документация по использованию `grunt-contrib-copy` смотрите [тут](https://npmjs.com/package/grunt-contrib-copy).
 
 
 <docmeta name="displayName" value="copy.js">

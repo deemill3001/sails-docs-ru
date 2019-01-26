@@ -1,12 +1,12 @@
 # tasks/config/babel.js
 
-This file configures a Grunt task called "babel".
+Этот файл настраивает задачу Grunt под названием "babel".
 
-This task is used to <a href="https://en.wiktionary.org/wiki/transcompile" target="_blank">transpile</a> any <a href="http://es6-features.org" target="_blank">ES8, ES7, and ES6 syntax</a> in your front-end JavaScript files for compatibility with older browsers.
+Эта задача используется для <a href="https://en.wiktionary.org/wiki/transcompile" target="_blank">транскомпиляции</a> любого <a href="http://es6-features.org" target="_blank">синтаксиса ES8, ES7 и ES6</a> в ваших фронтенд файлах JavaScript для совместимости со старыми браузерами.
 
-> (By default, only `.js` files in the `assets/js/` folder and subfolders will be transpiled.  If you need other things transpiled, such as `assets/dependencies/`, you'll need to modify the configuration of this task accordingly.)
+> (По умолчанию будут передаваться только файлы `.js` в папке и подпапках `assets/js/`. Если вам нужно перенести другие вещи, например, `assets/dependencies/`, то вам нужно будет изменить конфигурацию это задачи соответственно.)
 
-For additional usage documentation, see [`grunt-babel`](https://npmjs.com/package/grunt-babel).
+Дополнительную документацую по использованию `grunt-babel` смотрите [тут](https://npmjs.com/package/grunt-babel).
 
 
 

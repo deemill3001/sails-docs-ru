@@ -1,34 +1,34 @@
 # tasks/config/jst.js
 
 
-This file configures a Grunt task called "jst".
+Этот файл настраивает задачу Grunt под названием "jst".
 
-It precompiles HTML templates using Underscore/Lodash notation into functions, creating a `.jst` file.  This can be brought into your HTML via a `<script>` tag in order to expose your templates as `window.JST` for use in your client-side JavaScript.
+Эта задача предварительно компилирует шаблоны HTML, используя нотации Underscore/Lodash, в функции, создавая файл `.jst`. Это может быть положено в ваш HTML через тег `<script>` для того, чтобы представить ваши шаблоны как `window.JST` для использования в вашем клиентском JavaScript.
 
-In other words, this takes HTML files in `assets/templates/` and turns them into tiny little JavaScript functions that return HTML strings when you pass a data dictionary into them.  This approach is called "precompiling", and it can considerably speed up template rendering on the client, and even reduce bandwidth usage and related expenses.)
+Другими словами, это берет файлы HTML в `assets/templates/` и превращает их в крошечные маленькие функции JavaScript, которые возвращают строки HTML, когда вы передаете в них словарь данных. Этот подход называется "прекомпиляцией", и он может значительно ускорить рендеринг шаблонов на клиенте и даже сократить использование полосы пропускания и связанные с этим расходы.)
 
-> Note that, by default, Underscore/Lodash/JST notation is _opposite_ from EJS (`<%=` is `<%-`, and vice versa).
-> If this bothers you, it can be easily configured in this file. (See inline comments for details.)
+> Обратите внимание, что по умолчанию нотация Underscore/Lodash/JST _противоположна_ EJS (`<%=` равна `<%-`, и наоборот).
+> Если это вас беспокоит, это можно легко настроить в этом файле. (См. комментария в самом файле для деталей.)
 
-### But I'm not using Lodash/Underscore/JST templates...
+### Но я не использую шаблоны Lodash/Underscore/JST...
 
-No problem!
+Нет проблем!
 
-If you aren't using any kind of precompiled client-side templates, then just ignore this file.
+Если вы не используете какие-либо предварительно скомпилированные шаблоны на стороне клиента, просто проигнорируйте этот файл.
 
-If you are using a front-end framework like [Vue.js](https://vuejs.org), Ember, React, or Angular, see the starter app for examples, or come by https://sailsjs.com/support for assistance.
+Если вы используете фронтенд фреймворки, такие как [Vue.js](https://vuejs.org), Ember, React или Angular, просто посмотрите примеры приложений для начинающих или посетите https://sailsjs.com/ для получения помощи.
 
-If you want to use a _completely different_ pre-processor like [Handlebars](http://handlebarsjs.com/) or [Dust](http://www.dustjs.com/), and you want Sails to process your client-side templates automatically as you work, then you're in luck.  In most cases, this is as easy as installing the appropriate Grunt plugin as a dependency of your Sails app, and then configuring it to output the precompiled templates (condensed into a single JavaScript file) to the same path as in this default task.
+Если вы хотите использовать _полностью другой_ препроцессор, такой как [Handlebars](http://handlebarsjs.com/) или [Dust](http://www.dustjs.com/), и вы хотите, чтобы Sails обработал ваши клиентские шаблоны автоматически, то вам повезло. В большинстве случаев это так же просто, как установить соответствующий плагин Grunt в качестве зависимости вашего приложения Sails, а затем настроить его для вывода предварительно скомпилированных шаблонов (сжатых в один файл JavaScript) по тому же пути, что и в этой задаче по умолчанию.
 
-Here are a couple of popular examples:
+Вот несколько популярных примеров:
 
 + [grunt-contrib-handlebars](https://www.npmjs.com/package/grunt-contrib-handlebars)
 + [grunt-dust](https://www.npmjs.com/package/grunt-dust)
 
 
-### Usage
+### Использование
 
-For additional usage documentation, see [`grunt-contrib-jst`](https://www.npmjs.com/package/grunt-contrib-jst).
+Дополнительная документация по использованию `grunt-contrib-jst` смотрите [тут](https://www.npmjs.com/package/grunt-contrib-jst).
 
 
 

@@ -1,28 +1,28 @@
 # tasks/config/less.js
 
 
-This file configures a Grunt task called "less".
+Этот файл настраивает задачу Grunt под названием "less".
 
-Its job is to compile your LESS files into a CSS stylesheet.
+Его работа состоит в том, чтобы скомпилировать ваши файлы LESS в CSS.
 
-By default, only the `assets/styles/importer.less` file is compiled.  This allows you to control the ordering yourself, i.e. import your dependencies, mixins, variables, resets, etc. before your other more application-specific styles.  This is entirely up to you, and based on the order with which write your `@import`s in your LESS file.
+По умолчанию компилируется только файл `assets/styles/importer.less`. Это позволяет вам самим управлять порядком, то есть импортировать ваши зависимости, миксины(mixins), переменные, перезагрузки и т.д., прежде чем использовать другие стили, более специфичные для приложения. Это зависит только от вас, и в зависимости от порядка, в котором вы пишете `@import`-ы в вашем файле LESS.
 
-### But I'm not using LESS...
+### Но я не использую LESS...
 
-No problem!
+Нет проблем!
 
-If you aren't using _any_ preprocessor for your stylesheets, then just ignore this file.
+Если вы не используете _какой-либо_ препроцессор для своих таблиц стилей, просто проигнорируйте этот файл.
 
-If you want to use a different pre-processor like [SASS](http://sass-lang.com/) or [Stylus](http://stylus-lang.com/), and you want Sails to process your stylesheets automatically as you work, then you're in luck.  In most cases, this is as easy as installing the appropriate Grunt plugin as a dependency of your Sails app, and then configuring it to output compiled CSS to the same path as in this default task.
+Если вы хотите использовать другой препроцессор, например [SASS](http://sass-lang.com/) или [Stylus](http://stylus-lang.com/), и вы хотите, чтобы Sails обработала ваш таблицы стилей автоматически, то вам повезло. В большинстве случаев это так же просто, как установить соответствующий плагин Grunt в зависимости от вашего приложения Sails, а затем настроить его для вывода скомпилированного CSS по тому же пути, что и в этой задаче по умолчанию.
 
-Here are a couple of popular examples:
+Вот несколько популярных примеров:
 
 + [grunt-sass](http://npmjs.com/package/grunt-sass)
 + [grunt-contrib-stylus](https://npmjs.com/package/grunt-contrib-stylus)
 
-### Usage
+### Использование
 
-For additional usage documentation, see [`grunt-contrib-less`](https://npmjs.com/package/grunt-contrib-less).
+Дополнительная документация по использованию `grunt-contrib-less` смотрите [тут](https://npmjs.com/package/grunt-contrib-less).
 
 
 <docmeta name="displayName" value="less.js">

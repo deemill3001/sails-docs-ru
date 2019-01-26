@@ -1,12 +1,12 @@
 # tasks/config/cssmin.js
 
-This file configures a Grunt task called "cssmin".
+Этот файл настраивает задачу Grunt под названием "cssmin".
 
-It minifies the intermediate, concatenated CSS stylesheet which was prepared by the `concat` task at `.tmp/public/concat/production.css`.  Together with the `concat` task, this is the final step that minifies all CSS files from `assets/styles/` (and potentially your LESS importer file from `assets/styles/importer.less`).
+Оно минимизирует промежуточную объединенную таблицу стилей CSS, которая была подготовлена задачей `concat` в `.tmp/public/concat/production.css`. Вместе с задачей `concat`, это последний шаг, который минимизирует все CSS-файлы из `assets/styles/` (и, возможно, ваш файл импорта LESS из `assets/styles/importer.less`).
 
-### Usage
+### Использование
 
-For additional usage documentation, see [`grunt-contrib-cssmin`](https://npmjs.com/package/grunt-contrib-cssmin).
+Дополнительная документация по использованию `grunt-contrib-cssmin` смотрите [тут](https://npmjs.com/package/grunt-contrib-cssmin).
 
 
 <docmeta name="displayName" value="cssmin.js">

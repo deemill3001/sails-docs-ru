@@ -1,18 +1,18 @@
 # tasks/config/watch.js
 
-This file configures a Grunt task called "watch".
+Этот файл настраивает задачу Grunt под названием "watch".
 
-It runs predefined tasks whenever watched file patterns are added, changed or deleted.
+Он запускает предопределенные задачи всякий раз, когда просматриваемые шаблоны файлов добавляются, изменяются или удаляются.
 
-Specifically, this watches for changes to:
-- files in the `assets` folder
-- the `tasks/pipeline.js` file
+В частности, это он следит за изменениями:
+- файлов в папке `assets`
+- файла `tasks/pipeline.js`
 
-...and then re-runs the appropriate tasks.
+...а затем повторно запускает соответствующие задачи.
 
-### Usage
+### Использование
 
-For additional usage documentation, see [`grunt-contrib-watch`](https://npmjs.com/package/grunt-contrib-watch).
+Дополнительная документация по использованию `grunt-contrib-watch` смотрите [тут](https://npmjs.com/package/grunt-contrib-watch).
 
 
 <docmeta name="displayName" value="watch.js">
