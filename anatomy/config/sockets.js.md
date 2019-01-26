@@ -1,21 +1,21 @@
 # config/sockets.js
 
-This is a configuration file that allows you to customize the way your app talks to clients over Socket.IO.
+Это файл конфигурации, который позволяет вам настраивать способ взаимодействия вашего приложения с клиентами через Socket.IO.
 
-It provides transparent access to Sails' encapsulated pubsub/socket server for complete customizability. In it you can do things on the list below (and more!).
+Он обеспечивает прозрачный доступ к инкапсулированному серверу Sails pubsub/socket для полной настройки. В нем вы можете делать вещи из списка ниже (и многое другое!).
 
-- Override afterDisconnect function (server side)
-- Define custom authorization logic for client socket connections
-- Set transport method
-- Change Heartbeat Interval
-- Change socket store
+- Переопределить функцию afterDisconnect (функция на стороне сервера)
+- Определить пользовательскую логику авторизации для клиентских подключений
+- Установить способ переноса
+- Изменить интервал Heartbeat
+- Изменить хранилище сокетов
 
-### More Info
-> Socket.IO configuration options can be found [here](https://github.com/LearnBoost/Socket.IO/wiki/Configuring-Socket.IO).
+### Больше информации
+> Параметры конфигурации Socket.IO можно найти [здесь](https://github.com/LearnBoost/Socket.IO/wiki/Configuring-Socket.IO).
 
-### Usage
+### Использование
 
-See [`sails.config.sockets`](https://sailsjs.com/documentation/reference/configuration/sails-config-sockets) for all available options.
+См. [`sails.config.sockets`](https://sailsjs.com/documentation/reference/configuration/sails-config-sockets) для просмотра всех доступных параметров.
 
 
 <docmeta name="displayName" value="sockets.js">

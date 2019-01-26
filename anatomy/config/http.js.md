@@ -1,10 +1,10 @@
 # config/http.js
 
-This file is for configuring the underlying HTTP server in Sails, as well as any HTTP middleware your app may need.
+Этот файл предназначен для настройки основного сервера HTTP в Sails, а также любого промежуточного ПО(Express и т.д.) HTTP, которое может понадобиться вашему приложению.
 
-### Usage
+### Использование
 
-See [`sails.config.http`](https://sailsjs.com/documentation/reference/configuration/sails-config-http) for all available options.
+См. [`sails.config.http`](https://sailsjs.com/documentation/reference/configuration/sails-config-http) для просмотра всех доступных параметров.
 
 <docmeta name="displayName" value="http.js">
 

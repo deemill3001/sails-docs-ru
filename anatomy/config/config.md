@@ -1,6 +1,6 @@
 # config/
 
-This folder contains various files that will allow you to customize and configure your Sails app.
+Эта папка содержит различные файлы, которые позволят вам настроить и сконфигурировать приложение Sails.
 
 
 

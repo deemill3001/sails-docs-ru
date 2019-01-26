@@ -1,11 +1,11 @@
 # config/datastores
 
-A set of datastore configurations which tell Sails where to fetch or save data when you execute built-in model methods like `.find()` and `.create()`.
+Набор конфигураций хранилища данных, которые сообщают Sails, где следует получать или сохранять данные, когда вы выполняете встроенные методы модели, такие как `.find()` и `.create()`.
 
-> This file is mainly useful for configuring your development database, as well as any additional one-off databases used by individual models.
+> Этот файл в основном полезен для настройки вашей базы данных разработки, а также любых дополнительных одноразовых баз данных, используемых отдельными моделями.
 
-### Usage
+### Использование
 
-See [`sails.config.datastores`](https://sailsjs.com/documentation/reference/configuration/sails-config-datastores) for all available options.
+См. [`sails.config.datastores`](https://sailsjs.com/documentation/reference/configuration/sails-config-datastores) для просмотра всех доступных параметров.
 
 <docmeta name="displayName" value="datastores.js">

@@ -1,11 +1,11 @@
 # config/bootstrap.js
 
-This is a server-side JavaScript file that is executed by Sails just before your app is lifted.
+Это файл JavaScript на стороне сервера, который запускает Sails непосредственно перед тем, как ваше приложение будет поднята.
 
-This gives you an opportunity to set up your data model, run jobs, or perform some special logic.
+Это дает вам возможность настроить модель данных, запустить задания или выполнить какую-то особую логику.
 
-### Usage
+### Использование
 
-See [`sails.config.bootstrap`](https://sailsjs.com/documentation/reference/configuration/sails-config-bootstrap) for more info.
+См. [`sails.config.bootstrap`](https://sailsjs.com/documentation/reference/configuration/sails-config-bootstrap) для дополнительной информации.
 
 <docmeta name="displayName" value="bootstrap.js">

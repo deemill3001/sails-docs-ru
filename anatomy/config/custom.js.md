@@ -1,10 +1,10 @@
 # config/custom
 
-This is your custom configuration file. It is useful for one-off settings specific to your application-- like your base URL for linkbacks, the no-reply "From" address to use when sending automated emails, or 3rd party API keys for Stripe, Mailgun, Twilio, etc.
+Это ваш пользовательский файл конфигурации. Это полезно для одноразовых настроек, специфичных для вашего приложения, таких как базовый URL-адрес для обратных ссылок, адрес без ответа 'От' для использования при отправке автоматических электронных писем или сторонние ключи API для Stripe, Mailgun, Twilio и т. Д.
 
-> Use [`sails.config.custom`](https://sailsjs.com/documentation/reference/application/sails-config-custom) to access these values from your actions and helpers.
+> Используйте [`sails.config.custom`](https://sailsjs.com/documentation/reference/application/sails-config-custom) для доступа к этим значениям из ваших действий и помощников.
 
-You can learn more about custom configuration [here](https://sailsjs.com/documentation/reference/configuration/sails-config-custom).
+Вы можете узнать больше о пользовательской конфигурации [здесь](https://sailsjs.com/documentation/reference/configuration/sails-config-custom).
 
 
 <docmeta name="displayName" value="custom.js">

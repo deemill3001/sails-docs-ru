@@ -1,10 +1,10 @@
 # config/models.js
 
-Unless you override them, the properties contained in this file will be included in each of your models.
+Пока вы не переопределите их, свойства, содержащиеся в этом файле, будут включены в каждую из ваших моделей.
 
-### Usage
+### Использование
 
-See [`sails.config.models`](https://sailsjs.com/documentation/reference/configuration/sails-config-models) for all available options.
+См. [`sails.config.models`](https://sailsjs.com/documentation/reference/configuration/sails-config-models) для просмотра всех доступных параметров.
 
 <docmeta name="displayName" value="models.js">
 

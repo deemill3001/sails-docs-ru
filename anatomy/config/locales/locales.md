@@ -4,7 +4,7 @@
 
 ### Использование
 
-См **[Концепция > Интернационализация](https://sailsjs.com/documentation/concepts/internationalization)**.
+См **[Концепции > Интернационализация](https://sailsjs.com/documentation/concepts/internationalization)**.
 
 <docmeta name="displayName" value="locales">
 

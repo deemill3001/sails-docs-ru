@@ -1,17 +1,17 @@
 # config/routes.js
 
-This file contains custom routes.  Sails uses these routes to determine what to do each time it receives a request.
+Этот файл содержит пользовательские маршруты. Sails использует эти маршруты, чтобы определить, что делать каждый раз, когда он получает запрос.
 
-If Sails receives a URL that doesn't match any of the [custom routes](https://sailsjs.com/documentation/concepts/routes/custom-routes) in this file, it will check for matching [assets](https://sailsjs.com/documentation/concepts/assets) (images, scripts, stylesheets, etc.). Finally, if those don't match either, the [default 404 handler](https://sailsjs.com/documentation/reference/response-res/res-not-found) is triggered.
+Если Sails получает URL-адрес, который не соответствует ни одному из [пользовательских маршрутов](https://sailsjs.com/documentation/concepts/routes/custom-routes) в этом файле, он проверит соответствие [assets](https://sailsjs.com/documentation/concepts/assets) (изображения, сценарии, таблицы стилей и т. д.). Наконец, если они не совпадают, срабатывает [обработчик 404 по умолчанию](https://sailsjs.com/documentation/reference/response-res/res-not-found).
 
-When you first generate your Sails app, there is only one route in this file.  Its job is to serve the home page.
+При первом создании приложения Sails в этом файле есть только один маршрут. Его работа - показывать домашнюю страницу.
 
-You'll probably want to add some more.
+Возможно, вы захотите добавить еще.
 
-> Sails also injects _shadow routes_, or implicit routes that handle certain kinds of requests behind the scenes.  For more information about these kinds of routes, see **[Concepts > Blueprints](https://sailsjs.com/documentation/concepts/blueprints)**.
+> Sails также внедряют _shadow маршруты_ или неявные маршруты, которые обрабатывают определенные виды запросов за кулисами. Для получения дополнительной информации об этих видах маршрутов см. **[Концепции > Чертежи](https://sailsjs.com/documentation/concepts/blueprints)**.
 
-### Usage
+### Использование
 
-See [`sails.config.routes`](https://sailsjs.com/documentation/reference/configuration/sails-config-routes) for all available options.
+См. [`sails.config.routes`](https://sailsjs.com/documentation/reference/configuration/sails-config-routes) для просмотра всех доступных опций.
 
 <docmeta name="displayName" value="routes.js">

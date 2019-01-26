@@ -1,13 +1,13 @@
 # config/log.js
 
-This file contains the logger configuration for your Sails app.
+Этот файл содержит конфигурацию журнала для вашего приложения Sails.
 
-Configure the log level for your app, as well as the transport.
+Настройте уровень журнал для вашего приложения, а также переноса.
 
-Underneath the covers, Sails uses Winston for logging, which allows for some pretty neat custom transports/adapters for log messages.
+Sails использует Winston для ведения журнала, что позволяет использовать довольно удобные переносы/адаптеры для сообщений журнала.
 
-### Usage
+### Использование
 
-See [`sails.config.log`](https://sailsjs.com/documentation/reference/configuration/sails-config-log) for all available options.
+См. [`sails.config.log`](https://sailsjs.com/documentation/reference/configuration/sails-config-log) для просмотра всех доступных параметров.
 
 <docmeta name="displayName" value="log.js">

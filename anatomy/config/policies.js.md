@@ -1,11 +1,11 @@
 # config/policies.js
 
-This file contains the default policies for your app.
+Этот файл содержит настройки политики по умолчанию для вашего приложения.
 
-Policies are simply Express middleware functions which run before your controllers. You can apply one or more policies to a given controller, or protect just one of it's actions. Any policy file (e.g. `api/policies/isLoggedIn.js`) can be dropped into the `api/policies/` folder, at which point it can be accessed by it's filename, minus the extension, (e.g. `isLoggedIn`).
+Политика - это просто функции промежуточного ПО Express, которые выполняются перед вашими контроллерами. Вы можете применить одну или несколько политик к данному контроллеру или защитить только одно из его действий. Любой файл политики (например, `api/icies/isLoggedIn.js`) может быть помещен в папку `api/icies/`, после чего к нему можно получить доступ по его имени файла, за исключением расширения (например, `isLoggedIn`).
 
-### Usage
+### Использование
 
-See [`sails.config.policies`](https://sailsjs.com/documentation/reference/configuration/sails-config-policies) for all available options.
+См. [`Sails.config.policies`](https://sailsjs.com/documentation/reference/configuration/sails-config-policies) для просмотра всех доступных вариантов.
 
 <docmeta name="displayName" value="policies.js">

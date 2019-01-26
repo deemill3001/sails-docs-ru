@@ -1,17 +1,17 @@
 # config/security.js
 
-This file is the conventional home of your Sails app's global security settings.  For a complete reference of available security configuration in Sails, see:
+Этот файл является обычным местом глобальных настроек безопасности вашего приложения Sails. Для получения полной информации о доступной конфигурации безопасности в Sails, см.:
 
-* CORS settings reference: [sails.config.security.cors](https://sailsjs.com/documentation/reference/configuration/sails-config-security-cors)
-* CSRF settings reference: [sails.config.security.csrf](https://sailsjs.com/documentation/reference/configuration/sails-config-security-csrf)
+* Справочник по настройкам CORS: [sails.config.security.cors](https://sailsjs.com/documentation/reference/configuration/sails-config-security-cors)
+* Справочник по настройкам CSRF: [sails.config.security.csrf](https://sailsjs.com/documentation/reference/configuration/sails-config-security-csrf)
 
-For a conceptual explanation of CORS in Sails, see [Security > CORS](sailsjs.com/documentation/concepts/security/cors).
+Концептуальное объяснение CORS в Sails см. в разделе [Безопасность > CORS](https://sailsjs.com/documentation/concepts/security/cors).
 
-For a conceptual explanation of CSRF in Sails, see [Security > CSRF](sailsjs.com/documentation/concepts/security/csrf).
+Концептуальное объяснение CSRF в Sails см. в разделе [Безопасность > CSRF](https://sailsjs.com/documentation/concepts/security/csrf).
 
-### Usage
+### Использование
 
-See [`sails.config.security`](https://sailsjs.com/documentation/reference/configuration/sails-config-security) for all available options.
+См. [`sails.config.security`](https://sailsjs.com/documentation/reference/configuration/sails-config-security) для просмотра всех доступных параметров.
 
 
 <docmeta name="displayName" value="security.js">
