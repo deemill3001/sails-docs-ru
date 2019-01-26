@@ -1,12 +1,10 @@
 # tasks/pipeline.js
 
-The `pipeline.js` file in your Sails app determines the order in which your stylesheets,
-JavaScript, and client-side template files should be compiled and linked as `<script>`
-or `<link>` tags.
+Файл `pipe.js` в вашем приложении Sails определяет порядок, в котором ваши таблицы стилей, JavaScript и файлы шаблонов на стороне клиента должны быть скомпилированы и связаны как теги `<script>` или теги `<link>`.
 
-If you are not relying on [automatic asset linking](https://sailsjs.com/documentation/concepts/assets/task-automation#?asset-pipeline), then you can safely ignore this file.
+Если вы не полагаетесь на [автоматическое связывание ресурсов](https://sailsjs.com/documentation/concepts/assets/task-automation#?asset-pipeline), то вы можете спокойно проигнорировать этот файл.
 
-> Note that you can take advantage of Grunt-style wildcard/glob/splat expressions for matching multiple files, and use `!` in front of an expression to ignore files.
+> Обратите внимание, что вы можете воспользоваться преимуществами выражений wildcard/glob/splat в стиле Grunt для сопоставления нескольких файлов и использовать `!` Перед выражением, чтобы игнорировать файлы.
 
 
 <docmeta name="displayName" value="pipeline.js">

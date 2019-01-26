@@ -1,15 +1,13 @@
 # tasks/register/buildProd.js
 
-This Grunt tasklist will be executed instead of `build` if you run `sails www` in a production environment, e.g.:
+Этот список задач Grunt будет выполняться вместо `build`, если вы запускаете` sails www` в продакшн среде, например:
 
 ```bash
 NODE_ENV=production sails www
 ```
 
-This generates a folder containing your compiled (and usually minified)
-assets.  The most common use case for this is bundling up files to
-deploy to a CDN.
+Это создает папку, содержащую ваши скомпилированные (и обычно минимизированный) ресурсы(assets). Наиболее распространенным вариантом использования для этого является объединение файлов для развертки в CDN.
 
-> This is also useful for building standalone applications with tools like PhoneGap or Electron.
+> Это также полезно для создания автономных приложений с такими инструментами, как PhoneGap или Electron.
 
 <docmeta name="displayName" value="buildProd.js">

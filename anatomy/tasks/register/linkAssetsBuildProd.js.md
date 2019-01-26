@@ -1,5 +1,5 @@
 # tasks/register/linkAssetsBuildProd.js
 
-This Grunt tasklist is not designed to be used directly-- rather it is a supporting module used by the `buildProd` tasklist.
+Этот список задач Grunt не предназначен для непосредственного использования - скорее это вспомогательный модуль, используемый списком задач `buildProd`.
 
 <docmeta name="displayName" value="linkAssetsBuildProd.js">

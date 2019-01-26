@@ -1,18 +1,14 @@
 # tasks/register/default.js
 
-This is the default Grunt tasklist that will be executed if you
- run `grunt` in the top level directory of your app.  It is also
- called automatically when you start Sails in development mode using
- `sails lift` or `node app`.
+Это стандартный список задач Grunt, который будет выполнен, если вы
+запустите `grunt` в каталоге верхнего уровня вашего приложения. Он также вызывается автоматически, когда вы запускаете Sails в режиме разработки с помощью `sails lift` или `node app`.
 
- Note that when lifting your app with a custom environment setting
- (i.e. `sails.config.environment`), Sails will look for a tasklist file
- with the same name and run that instead of this one.
+Обратите внимание, что при поднятии вашего приложения с пользовательским параметром среды (например, `sails.config.environment`), Sails будет искать файл списка задач с тем же именем и запускать его вместо этого.
 
- > Note that as a special case for compatibility/historial reasons, if
- > your environment is "production" (i.e. because you lifted with NODE_ENV=production),
- > and Sails cannot find a tasklist named `production.js`, it will attempt to run
- > the `prod.js` tasklist as well before defaulting to `default.js`.
+> Обратите внимание, что в качестве особого случая по причинам совместимости/истории, если
+> у вас продакшн среда (то есть потому, что вы подняли ее с `NODE_ENV = production`),
+> и Sails не может найти список задач с именем `production.js`, он попытается запустить
+> список задач `prod.js`, прежде чем по умолчанию установит значение `default.js`.
 
 <docmeta name="displayName" value="default.js">
 

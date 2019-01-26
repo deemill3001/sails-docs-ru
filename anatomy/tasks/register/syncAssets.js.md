@@ -1,6 +1,6 @@
 # tasks/register/syncAssets.js
 
-This Grunt tasklist is not designed to be used directly-- rather it is a supporting module used by the `watch` task (`tasks/config/watch.js`).
+Этот список задач Grunt не предназначен для непосредственного использования - скорее это вспомогательный модуль, используемый задачей `watch` (`tasks/config/watch.js`).
 
 <docmeta name="displayName" value="syncAssets.js">
 

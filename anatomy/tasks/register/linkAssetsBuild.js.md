@@ -1,6 +1,6 @@
 # tasks/register/linkAssetsBuild.js
 
-This Grunt tasklist is not designed to be used directly-- rather it is a supporting module used by the `build` tasklist.
+Этот список задач Grunt не предназначен для непосредственного использования - скорее это вспомогательный модуль, используемый списком задач `build`.
 
 <docmeta name="displayName" value="linkAssetsBuild.js">
 

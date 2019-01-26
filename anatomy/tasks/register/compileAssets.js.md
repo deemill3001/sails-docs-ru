@@ -1,5 +1,5 @@
 # tasks/register/compileAssets.js
 
-This Grunt tasklist is not designed to be used directly-- rather it is a supporting module used by the `default`, `prod`, `build`, and `buildProd` tasklists.
+Этот список задач Grunt не предназначен для непосредственного использования - скорее это вспомогательный модуль, используемый списками задач `default`, ` prod`, `build` и `buildProd`.
 
 <docmeta name="displayName" value="compileAssets.js">

@@ -1,64 +1,64 @@
 # tasks/
 
-The `tasks/` directory is a suite of Grunt tasks and their configurations, bundled for your convenience.  The Grunt integration is mainly useful for bundling front-end assets (like stylesheets, scripts and markup templates), but it can also be used to run all kinds of development tasks, from browserify compilation to database migrations.
+Каталог `tasks/` - это набор задач Grunt и их конфигураций, связанных для вашего удобства. Интеграция Grunt в основном полезна для объединения внешних ресурсов (например, таблиц стилей, сценариев и шаблонов разметки), но она также может использоваться для выполнения всех видов задач разработки, от компиляции в браузере до миграции баз данных.
 
-If you haven't used [Grunt](http://gruntjs.com/) before, that's OK!  For many common use cases, you can get by without customizing or even looking at the files in this folder.  If you do need to customize something, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains basic concepts like the [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as how to install and use Grunt plugins. Once you're familiar with that process, read on!
-
-
-### How does this work?
-
-The asset pipeline bundled in Sails is a set of Grunt tasks configured with conventional defaults designed to make your project more consistent and productive.
-
-The entire front-end asset workflow in Sails is completely customizable-- while it provides some suggestions out of the box, Sails makes no pretense that it can anticipate all of the needs you'll encounter building the browser-based/front-end portion of your application.  Who's to say you're even building an app for a browser?
+Если вы раньше не пользовались [Grunt](http://gruntjs.com/), это нормально! В большинстве случаев вы можете обойтись без настройки или даже просмотра файлов в этой папке. Если вам нужно что-то настроить, обязательно ознакомьтесь с руководством [Getting Started](http://gruntjs.com/getting-started), так как оно объясняет основные понятия, такие как [Gruntfile](http://gruntjs.com/sample-gruntfile), а также как установить и использовать плагины Grunt. Как только вы ознакомитесь с этим процессом, читайте дальше!
 
 
-### What tasks does Sails run automatically?
+### Как это работает?
 
-Sails runs some of these tasks (certain ones in the `tasks/register/` folder) automatically when you run certain commands.
+Пайплайн ресурсов, включенный в Sails, представляет собой набор задач Grunt, сконфигурированных с традиционными настройками по умолчанию, предназначенными для того, чтобы сделать ваш проект более согласованным и продуктивным.
+
+Весь рабочий процесс фронтенд ресурса в Sails полностью настраиваемый - хотя он предоставляет некоторые рекомендации из коробки, Sails не претендует на то, что он может предвидеть все потребности, с которыми вы столкнетесь при создании браузерной/фронтенд части вашего приложения. Кто сказал, что вы даже создаете приложение для браузера?
+
+
+### Какие задачи запускает Sails автоматически?
+
+Sails запускает некоторые из этих задач (определенные в папке `tasks/register/`) автоматически при запуске определенных команд.
 
 ###### `sails lift`
 
-Runs the `default` task (`tasks/register/default.js`).
+Запускает задачу `default` (`tasks/register/default.js`).
 
 ###### `sails lift --prod`
 
-Runs the `prod` task (`tasks/register/prod.js`).
+Запускает задачу `prod` (`tasks/register/prod.js`).
 
 ###### `sails www`
 
-Runs the `build` task (`tasks/register/build.js`).
+Запускает задачу `build` (`tasks/register/build.js`).
 
 ###### `sails www --prod` (production)
 
-Runs the `buildProd` task (`tasks/register/buildProd.js`).
+Запускает задачу `buildProd` (`tasks/register/buildProd.js`).
 
 
-### Can I customize this for SASS, Angular, client-side Jade templates, etc?
+### Могу ли я настроить это для SASS, Angular, клиентских Jade шаблонов и т.д.?
 
-You can modify, omit, or replace any of these Grunt tasks to fit your requirements. You can also add your own Grunt tasks- just add a `someTask.js` file in the `grunt/config` directory to configure the new task, then register it with the appropriate parent task(s) (see files in `grunt/register/*.js`).
-
-
-### Do I have to use Grunt?
-
-Nope!  The Sails core team has used Grunt on real-world projects for upwards of 4 years now, and overall it's been a fantastic tool.  But we realize it's not for everyone.  To disable Grunt integration in Sails, just delete your Gruntfile or [disable the Grunt hook](https://sailsjs.com/documentation/concepts/assets/disabling-grunt).
-
-> You can also [generate a new Sails app `--without=grunt`](https://sailsjs.com/documentation/reference/command-line-interface/sails-new).
+Вы можете изменить, опустить или заменить любую из этих задач Grunt в соответствии с вашими требованиями. Вы также можете добавить свои собственные задачи Grunt - просто добавьте файл `someTask.js` в каталог `grunt/config` для настройки новой задачи, а затем зарегистрируйте его в соответствующих родительских задачах (см. файлы в `grunt/register/*. js`).
 
 
-### What if I'm not building a web frontend?
+### Должен ли я использовать Grunt?
 
-That's ok! A core tenant of Sails is client-agnosticism-- it's especially designed for building APIs used by all sorts of clients; native Android/iOS/Cordova, serverside SDKs, etc.
+Неа! Основная команда Sails использовала Grunt в реальных проектах уже более 4 лет, и в целом это был фантастический инструмент. Но мы понимаем, что это не для всех. Чтобы отключить интеграцию Grunt в Sails, просто удалите свой Gruntfile или [отключите хук Grunt](https://sailsjs.com/documentation/concepts/assets/disabling-grunt).
 
-You can completely disable Grunt by following the instructions [here](https://sailsjs.com/documentation/concepts/assets/disabling-grunt).
-
-If you still want to use Grunt for other purposes, but don't want any of the default web front-end stuff, just delete your project's `assets` folder and remove the front-end oriented tasks from the `grunt/register` and `grunt/config` folders.  You can also run `sails new myCoolApi --no-frontend` to omit the `assets` folder and front-end-oriented Grunt tasks for future projects.  You can also replace your `sails-generate-frontend` module with alternative community generators, or create your own.  This allows `sails new` to create the boilerplate for native iOS apps, Android apps, Cordova apps, SteroidsJS apps, etc.
-
-> If you know you'll _never_ need any kind of web frontend, you can also [generate a new Sails app with `--no-frontend` at all](https://sailsjs.com/documentation/reference/command-line-interface/sails-new).
+> Вы также можете [создать новое приложение Sails через `--without = grunt`](https://sailsjs.com/documentation/reference/command-line-interface/sails-new).
 
 
-### More info
+### Что если я не пишу фронтенд?
 
-> More information on using Grunt to work with static assets: http://gruntjs.com/configuring-tasks
+Это нормально! Основной фишкой Sails является независимость от клиента - он специально разработан для создания API, используемых всеми видами клиентов; нативный Android/iOS/Cordova, серверные SDK и т.д.
+
+Вы можете полностью отключить Grunt, следуя инструкциям [здесь](https://sailsjs.com/documentation/concepts/assets/disabling-grunt).
+
+Если вы по-прежнему хотите использовать Grunt для других целей, но не хотите использовать фронтенд по умолчанию, просто удалите папку `assets` вашего проекта и удалите задачи, ориентированные на интерфейс, из `grunt/register` и папки `grunt/config`. Вы также можете запустить `sails new myCoolApi --no-frontend`, чтобы пропустить папку `assets` и фронтенд ориентированные задачи Grunt для будущих проектов. Вы также можете заменить свой модуль `sails-generate-frontend` альтернативными генераторами сообщества или создать свой собственный. Это позволяет создавать новые шаблоны для собственных приложений iOS, Android, Cordova, SteroidsJS и т.д.
+
+> Если вам никогда не понадобится какой-либо фронтенд, вы также можете [создать новое приложение Sails с помощью `--no-frontend`](https://sailsjs.com/documentation/reference/command-line-interface/sails-new).
+
+
+### Подробнее
+
+> Подробнее об использовании Grunt для работы со статическими ресурсами: http://gruntjs.com/configuring-tasks
 
 
 
