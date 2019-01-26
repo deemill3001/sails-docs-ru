@@ -1,6 +1,6 @@
 # config/env/
 
-This folder contains various environment-specific settings such as API keys or remote database passwords. Depending on the environment Sails is lifted in, the appropriate configuration file in this folder will load.  To read more about environent-specific config in Sails, see [**Concepts > Configuration**](https://sailsjs.com/documentation/concepts/configuration#?environmentspecific-files-config-env).
+Эта папка содержит различные параметры среды, такие как ключи API или пароли удаленной базы данных. В зависимости от среды, в которой запущен Sails, будет загружен соответствующий файл конфигурации в этой папке. Чтобы узнать больше о конфигурации среды в Sails, см. [**Концепция > Конфигурация**](https://sailsjs.com/documentation/concepts/configuration#?environmentspecific-files-config-env).
 
 
 <docmeta name="displayName" value="env">

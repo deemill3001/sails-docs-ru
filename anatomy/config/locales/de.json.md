@@ -1,6 +1,6 @@
 # config/locales/de.json
 
-This file is where German locale information is stored.
+Этот файл содержит немецкую локализацию.
 
 <docmeta name="displayName" value="de.json">
 

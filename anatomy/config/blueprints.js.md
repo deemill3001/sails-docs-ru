@@ -1,12 +1,12 @@
 # config/blueprints.js
 
-This file is for the configuration of blueprint routes and actions.
+Этот файл предназначен для настройки Blueprint маршрутов и действий проекта.
 
-For an overview of blueprints, see the [main Blueprints API concepts docs](https://sailsjs.com/documentation/concepts/blueprints).  For more information on configuring the blueprint API, check out the [reference documentation on blueprints](https://sailsjs.com/documentation/reference/configuration/sails-config-blueprints).
+Обзор Blueprint чертежей см. в [документации по основным концепциям Blueprints API](https://sailsjs.com/documentation/concepts/blueprints). Для получения дополнительной информации о настройке Blueprint API обратитесь к [справочной документации по Blueprint](https://sailsjs.com/documentation/reference/configuration/sails-config-blueprints).
 
-### Usage
+### Использование
 
-See [`sails.config.blueprints`](https://sailsjs.com/documentation/reference/configuration/sails-config-blueprints) for all available options.
+См. [`sails.config.blueprints`](https://sailsjs.com/documentation/reference/configuration/sails-config-blueprints) для просмотра всех доступных параметров.
 
 
 

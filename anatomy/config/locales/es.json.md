@@ -1,5 +1,5 @@
 # config/locales/es.json
 
-This file is where Spanish locale settings are stored.
+Этот файл содержит испанскую локализацию.
 
 <docmeta name="displayName" value="es.json">

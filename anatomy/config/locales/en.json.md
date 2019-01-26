@@ -1,5 +1,5 @@
 # config/locales/en.json
 
-This file is where English locale settings are stored.
+Этот файл содержит английскую локализацию.
 
 <docmeta name="displayName" value="en.json">

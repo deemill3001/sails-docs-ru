@@ -1,10 +1,10 @@
 # config/locales
 
-This folder contains the information that is used by your app in supporting visiting client's different [locales](http://en.wikipedia.org/wiki/Locale).
+Эта папка содержит информацию, используемую вашим приложением для поддержки различных [региональных настроек](https://ru.wikipedia.org/wiki/%D0%9B%D0%BE%D0%BA%D0%B0%D0%BB%D1%8C) клиента.
 
-### Usage
+### Использование
 
-See **[Concepts > Internationalization](https://sailsjs.com/documentation/concepts/internationalization)**.
+См **[Концепция > Интернационализация](https://sailsjs.com/documentation/concepts/internationalization)**.
 
 <docmeta name="displayName" value="locales">
 

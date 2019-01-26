@@ -1,5 +1,5 @@
 # config/locales/fr.json
 
-This file is where French locale settings are stored.
+Этот файл содержит французскую локализацию.
 
 <docmeta name="displayName" value="fr.json">
